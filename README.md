@@ -168,6 +168,29 @@ AI-Powered-Drone-for-Solar-Panel-Cleaning/
 │── thesis/
 │── README.md
 ```
+## Project Screenshots
+
+### Drone with Spraying System Prototype
+
+![Drone Prototype](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/complete_hardware2.jpeg?raw=true)
+
+---
+
+![Drone Prototype 2](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/complete_hardware3.jpeg?raw=true)
+
+---
+
+### Flight Testing Preview
+
+![Flight Testing](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/flying_tests.jpeg?raw=true)
+
+---
+
+![Flight Testing 2](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/flying_tests4.jpeg?raw=true)
+
+---
+
+![Flight Testing 3](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/flying_tests5.jpeg?raw=true)
 
 ---
 
