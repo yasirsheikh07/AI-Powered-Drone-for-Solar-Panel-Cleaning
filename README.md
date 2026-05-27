@@ -157,7 +157,23 @@ Monitor:
 
 ```text
 AI-Powered-Drone-for-Solar-Panel-Cleaning/
-│
+---
+
+## Testing Videos
+
+### Drone Flying Test Videos
+
+- [Flying Test 1](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_1.mp4)
+
+- [Flying Test 2](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_2.mp4)
+
+- [Flying Test 3](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_3.mp4)
+
+- [Flying Test 4](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_4.mp4)
+
+- [Flying Test 5](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_5.mp4)
+
+---│
 ├── colab_notebooks/
 ├── flowchart_&_block_diagrams/
 ├── presentations/
