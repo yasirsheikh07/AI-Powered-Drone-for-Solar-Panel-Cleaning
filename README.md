@@ -1,168 +1,155 @@
-# AI Powered Drone for Solar Panel Cleaning
+# AI-Powered Drone for Solar Panel Cleaning
 
 ## Project Overview
 
-This project focuses on developing an AI-powered autonomous drone system for cleaning solar panels efficiently using image processing and automated spraying technology.
+This project focuses on developing an AI-powered autonomous drone system for solar panel cleaning using Raspberry Pi, Pixhawk flight controller, image processing, and automated spraying mechanisms.
 
-The drone is designed to reduce manual cleaning efforts, improve solar panel efficiency, and automate the maintenance process using intelligent flight control and real-time monitoring.
-
-The system integrates Raspberry Pi, Pixhawk flight controller, Mission Planner software, telemetry communication, GPS navigation, and a spraying mechanism for autonomous cleaning operations.
+The drone is designed to reduce manual labor, improve cleaning efficiency, and automate the maintenance process of solar panels in large-scale solar farms.
 
 ---
 
 ## Objectives
 
-- Automate solar panel cleaning using drone technology
-- Reduce water wastage and manual labor
-- Improve solar panel efficiency by removing dust accumulation
-- Implement autonomous waypoint navigation
-- Integrate image processing for intelligent cleaning operations
-- Develop a cost-effective smart cleaning solution
+- Automate solar panel cleaning
+- Reduce human effort and maintenance cost
+- Improve cleaning efficiency using autonomous flight
+- Use image processing for panel detection and navigation
+- Implement automated spraying mechanism
 
 ---
 
-## Hardware Components Used
+## Technologies Used
+
+- Python
+- Raspberry Pi 4
+- Pixhawk Flight Controller
+- Mission Planner
+- OpenCV
+- DroneKit
+- Telemetry System
+- BLDC Motors
+- Electronic Speed Controllers (ESC)
+- GPS Module
+
+---
+
+## Hardware Components
 
 - Pixhawk Flight Controller
 - Raspberry Pi 4
 - GPS Module
-- Telemetry Module
 - Drone Frame
 - BLDC Motors
-- Electronic Speed Controllers (ESC)
+- ESCs
+- Telemetry Module
 - LiPo Battery
+- Water Spraying System
 - RC Transmitter and Receiver
-- Water Spraying Mechanism
-- Water Pump and Pipe System
-
----
-
-## Software & Technologies Used
-
-- Python
-- OpenCV
-- Raspberry Pi OS
-- Mission Planner
-- ArduPilot
-- DroneKit
-- Embedded Systems
-- Image Processing
-- Autonomous Navigation
 
 ---
 
 ## System Workflow
 
-1. The drone initializes all hardware components.
-2. GPS and telemetry establish communication.
-3. Mission Planner uploads autonomous waypoints.
-4. Drone takes off autonomously.
-5. Image processing detects dirty solar panel regions.
-6. Spraying system activates during cleaning operation.
-7. Drone follows predefined path for cleaning.
-8. After completing the mission, the drone returns to launch point automatically.
+1. Drone Initialization
+2. Sensor and GPS Calibration
+3. Autonomous Flight Planning
+4. Image Processing and Navigation
+5. Solar Panel Detection
+6. Automated Spraying Activation
+7. Live Monitoring using Mission Planner
+8. Return-to-Launch (RTL)
+9. Post-Flight Analysis
 
 ---
 
-## Mission Planner Software Process
+## Mission Planner Process
 
 ### Step 1: Install and Launch Mission Planner
 
-- Download and install Mission Planner from the official website.
-- Connect Pixhawk to the laptop using a USB cable.
-- Select the correct COM port and baud rate.
-- Click Connect to establish communication.
+- Download and install Mission Planner
+- Connect Pixhawk to laptop using USB
+- Select correct COM port and baud rate
+- Connect flight controller
 
 ---
 
 ### Step 2: Initial Setup and Configuration
 
-- Install ArduCopter firmware.
+- Install ArduCopter firmware
 - Calibrate:
   - Accelerometer
   - Compass
   - Radio Controller
-  - ESC
-- Configure flight modes.
-- Configure failsafe settings.
+  - ESCs
+- Configure flight modes
+- Configure failsafe settings
 
 ---
 
-### Step 3: Creating Autonomous Mission
+### Step 3: Autonomous Mission Planning
 
-- Open the Flight Plan tab.
-- Set the home location.
-- Add waypoints across the solar panel area.
-- Configure altitude and speed parameters.
-- Add required commands for cleaning operations.
+- Open Flight Plan tab
+- Set home location
+- Add waypoints
+- Configure altitude and speed
+- Add cleaning and spraying commands
 
 ---
 
-### Step 4: Upload and Save Mission
+### Step 4: Upload Mission
 
-- Click Write WPs to upload the mission.
-- Save waypoints for future missions.
+- Write waypoints to Pixhawk
+- Save mission for future use
 
 ---
 
 ### Step 5: Pre-Flight Checks
 
-- Verify battery voltage
-- Check GPS signal
-- Verify telemetry connection
-- Check spraying system
+- Battery status
+- GPS signal
+- Telemetry connection
+- Sprayer system check
 
 ---
 
-### Step 6: Start Autonomous Mission
+### Step 6: Autonomous Flight
 
-- Arm the drone.
-- Start mission using RC transmitter or Mission Planner.
-- Drone autonomously performs cleaning operations.
+- Arm the drone
+- Start autonomous mission
+- Navigate through solar panel waypoints
+- Activate spraying system automatically
 
 ---
 
 ### Step 7: Live Monitoring
 
-Monitor the following in real-time:
+Monitor:
 - Drone location
 - Altitude
-- Battery status
-- GPS signal
-- Telemetry data
+- Speed
+- Battery level
+- Sensor data
+- Flight status
 
 ---
 
-### Step 8: Post Flight Analysis
+### Step 8: Post-Flight Analysis
 
-- Download flight logs.
-- Analyze mission performance.
-- Identify errors and optimize future missions.
-
----
-
-## Key Features
-
-- Autonomous drone navigation
-- Automated spraying mechanism
-- AI-based image processing
-- GPS-guided flight control
-- Real-time telemetry monitoring
-- Mission Planner integration
-- Solar panel cleaning automation
+- Download flight logs
+- Analyze drone performance
+- Identify issues for future improvements
 
 ---
 
-## Research & Documentation
+## Features
 
-This repository includes:
-- Research papers
-- Review papers
-- Thesis documentation
-- Synopsis
-- Presentation slides
-- Flowcharts and block diagrams
-- Colab notebooks
+- Autonomous navigation
+- Automated solar panel cleaning
+- Image processing integration
+- GPS waypoint navigation
+- Real-time monitoring
+- Spraying system control
+- Flight data logging
 
 ---
 
@@ -178,5 +165,6 @@ AI-Powered-Drone-for-Solar-Panel-Cleaning/
 ├── review_papers/
 ├── summary_report_poster/
 ├── synopsis/
+├── testing/
 ├── thesis/
-└── README.md
+├── README.md
