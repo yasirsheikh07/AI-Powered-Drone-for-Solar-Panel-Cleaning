@@ -168,6 +168,23 @@ AI-Powered-Drone-for-Solar-Panel-Cleaning/
 │── thesis/
 │── README.md
 ```
+## Hardware Components
+
+| Component | Purpose |
+|---|---|
+| Pixhawk Flight Controller | Controls drone flight and stabilization |
+| Raspberry Pi 4 | AI processing and image handling |
+| GPS Module | Navigation and waypoint tracking |
+| BLDC Motors | Drone propulsion |
+| ESC (Electronic Speed Controller) | Controls motor speed |
+| LiPo Battery | Power supply for drone |
+| Telemetry Module | Wireless communication |
+| RC Transmitter & Receiver | Manual drone control |
+| Spraying System | Solar panel cleaning mechanism |
+| Water Tank | Stores cleaning liquid |
+| Camera Module | Image capturing and monitoring |
+
+---
 ## Project Screenshots
 
 ### Drone with Spraying System Prototype
