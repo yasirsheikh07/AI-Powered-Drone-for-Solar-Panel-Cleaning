@@ -157,6 +157,18 @@ Monitor:
 
 ```text
 AI-Powered-Drone-for-Solar-Panel-Cleaning/
+│── colab_notebooks/
+│── flowchart_&_block_diagrams/
+│── presentations/
+│── research_papers/
+│── review_papers/
+│── summary_report_poster/
+│── synopsis/
+│── testing/
+│── thesis/
+│── README.md
+```
+
 ---
 
 ## Testing Videos
@@ -173,14 +185,4 @@ AI-Powered-Drone-for-Solar-Panel-Cleaning/
 
 - [Flying Test 5](https://github.com/yasirsheikh07/AI-Powered-Drone-for-Solar-Panel-Cleaning/blob/main/testing/Testing%20Images/Testing%20Videos/flying_test_5.mp4)
 
----│
-├── colab_notebooks/
-├── flowchart_&_block_diagrams/
-├── presentations/
-├── research_papers/
-├── review_papers/
-├── summary_report_poster/
-├── synopsis/
-├── testing/
-├── thesis/
-├── README.md
+---
